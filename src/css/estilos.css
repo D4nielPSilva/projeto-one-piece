@@ -81,6 +81,7 @@ main .personagem .imagem{
     border: none;
     background: #000;
     cursor: pointer;
+    transition: transform 200ms linear;
 }
 
 .botoes .botao img{
@@ -90,7 +91,8 @@ main .personagem .imagem{
 .botoes .botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
+}
 
-
-
+.botao:hover{
+    transform: scale(1.1);
 }
