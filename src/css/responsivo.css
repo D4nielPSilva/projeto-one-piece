@@ -29,13 +29,12 @@
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
-        padding: 30px;
+        padding: 40px;
     }
 
     .botoes .botao img{
-        max-width: 60px;
-        
-
+        max-width: 80px;
+    
     }
 }
 

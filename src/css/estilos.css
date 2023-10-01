@@ -14,7 +14,6 @@ main::after{
 
 }
 
-
 main .personagem{
     display: none;
     height: 100vh;
@@ -28,7 +27,7 @@ main .personagem .imagem{
     height: 100%;
     object-fit: cover;
 }
-main .conteudo{
+.conteudo{
     position: absolute;
     top: 0;
     left: 120px;
